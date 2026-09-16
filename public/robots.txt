@@ -1,0 +1,11 @@
+# Robots.txt for Sadguru Enterprises
+# Website: https://www.sadguruenterprises.com
+
+User-agent: *
+Allow: /
+
+# Disallow any private or build directories
+Disallow: /dist/
+
+# Sitemap location
+Sitemap: https://www.sadguruenterprises.com/sitemap.xml
