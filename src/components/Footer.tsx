@@ -24,7 +24,7 @@ export const Footer: React.FC<FooterProps> = ({
   };
 
   return (
-    <footer className="bg-stone-950 text-stone-300 pt-12 pb-8 border-t-4 border-red-700">
+    <footer className="hidden md:block bg-stone-950 text-stone-300 pt-12 pb-8 border-t-4 border-red-700">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 space-y-10">
 
         {/* ========================================================
